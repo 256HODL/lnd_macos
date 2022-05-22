@@ -24,7 +24,7 @@ git clone https://github.com/bitcoin/bitcoin.git && cd "$_"
 # Install ZMQ Dependencies
 brew install zeromq
 
-# Install Python (skip if you already have Python3 installed already)
+# Install Python (skip if you already have Python3 installed)
 brew install python
 
 # Build Bitcoin Core with no Wallet or GUI
