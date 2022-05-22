@@ -152,3 +152,10 @@ IP_ADDRESS:PORT: 85.216.202.47:9735
 ```
 lncli openchannel --conf_target 6 --node_key PUBLIC_NODE_PUBLIC_KEY --connect IP_ADDRESS:PORT --local_amt AMOUNT_OF_SATS
 ```
+
+## References
+- Bitcoin Core Github
+https://github.com/bitcoin/bitcoin
+
+- LND Documentation
+https://docs.lightning.engineering/
