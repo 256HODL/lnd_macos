@@ -1,4 +1,4 @@
-# Build a Ligthing Node on macOS with LND and a local full node
+# Build a Ligthing Node on macOS with LND and a Full Node
 
 ## Step 1: Build Bitcoin Core from source with ZMQ notifications enabled.
 
