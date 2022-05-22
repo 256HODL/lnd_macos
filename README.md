@@ -102,7 +102,7 @@ Use a text editor or vi/vim/nano to include the below:
 rpcuser=btcrpcuser
 rpcpassword=SOME_AUTH_STRING
 bitcoin.node=bitcoind
-bitcoin.active=1
+bitcoin.active=true
 bitcoin.mainnet=true
 listen=0.0.0.0:9735
 listen=[::1]:9736
