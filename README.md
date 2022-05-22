@@ -132,9 +132,9 @@ Run the following command via CLI:
 ```
 lncli newaddress p2wkh
 ```
-This will output a main-chain wallet address you can sends sats to.
+This will output a main-chain wallet address which you can sends sats to.
 
-Any bitcoin sent to these addresses will now show up in the commmand:
+Any sats sent to these addresses will now show up in the commmand:
 
 ```
 lncli walletbalance
