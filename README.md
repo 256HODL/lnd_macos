@@ -5,7 +5,6 @@
 **Bitcoin Core macOS Build Guide**
 - https://github.com/bitcoin/bitcoin/blob/master/doc/build-osx.md
 
-### Quick Paste
 ```
 ## Does not include a GUI or wallet. See the Bitcoin Core Build Guide if you'd like to enable this functionality.
 
