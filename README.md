@@ -68,7 +68,7 @@ cd /bitcoin
 python3 share/rpcauth/rpcauth.py btcrpcuser
 ```
 
-This will output some info. Take note of the auth string after `btcrpcuser:` as this will be used in the bitcoin.conf and lnd.conf file.
+This will output some info. Take note of the auth string after `btcrpcuser:` as this will be used in the `bitcoin.conf` and `lnd.conf` file.
 
 ```
 rpcauth=btcrpcuser:SOME_AUTH_STRING
@@ -77,7 +77,7 @@ YOUR_RPC_PASSWORD
 ```
 
 ## Step 4: Configure your bitcoin.conf file
-File is located in:
+The `bitcoin.conf` is located in:
 
 `/Users/${USER}/Library/Application Support/Bitcoin/bitcoin.conf`
 
