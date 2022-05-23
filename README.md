@@ -5,7 +5,7 @@
 **Bitcoin Core macOS Build Guide**
 - https://github.com/bitcoin/bitcoin/blob/master/doc/build-osx.md
 
-Summary of commands to build a full node from source:
+Summary of commands:
 
 ```
 ## Does not include a GUI or wallet. See the Bitcoin Core Build Guide if you'd like to enable this functionality.
