@@ -77,7 +77,7 @@ YOUR_RPC_PASSWORD
 ```
 
 ## Step 4: Configure your bitcoin.conf file
-The `bitcoin.conf` is located in:
+The `bitcoin.conf` file is located in:
 
 `/Users/${USER}/Library/Application Support/Bitcoin/bitcoin.conf`
 
