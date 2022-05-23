@@ -80,7 +80,7 @@ File is located in:
 
 `/Users/${USER}/Library/Application Support/Bitcoin/bitcoin.conf`
 
-Use a text editor or vi/vim/nano to include the below:
+Use a text editor or vi/vim/nano to include the below, replacing `SOME_AUTH_STRING` with the string returned in Step 3.
 
 ```
 rpcuser=btcrpcuser
@@ -96,7 +96,8 @@ Create the LND directory and config file
 mkdir ~/.lnd/ && touch ~/.lnd/lnd.conf
 ```
 
-Use a text editor or vi/vim/nano to include the below:
+Use a text editor or vi/vim/nano to include the below, replacing `SOME_AUTH_STRING` with the string returned in Step 3.
+
 ```
 [Bitcoin]
 rpcuser=btcrpcuser

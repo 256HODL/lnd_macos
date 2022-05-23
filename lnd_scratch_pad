@@ -1,0 +1,18 @@
+lncli openchannel --conf_target 6 --node_key 0382b31dcff337311bf919411c5073c9c9a129890993f94f4a16eaaeffd91c7788 --connect 37.120.130.22:9735 --local_amt 110000
+
+// change fees
+plebnet.wiki
+55d9c8e11e6a926e3929a9584298278e6297b75b75f4f8c751f6b00da05ffe72:1
+c2667cb84c8a249f0bde38929774fa6c3d8c976a6b51be8300a3446151cff9a1:1
+
+lncli updatechanpolicy --fee_rate 0.000001 55d9c8e11e6a926e3929a9584298278e6297b75b75f4f8c751f6b00da05ffe72:1
+
+lncli updatechanpolicy c2667cb84c8a249f0bde38929774fa6c3d8c976a6b51be8300a3446151cff9a1:1
+
+lncli updatechanpolicy --base_fee_msat 1000 --fee_rate 0.000001 --time_lock_delta 40 --min_htlc_msat 1000 --chan_point c2667cb84c8a249f0bde38929774fa6c3d8c976a6b51be8300a3446151cff9a1:1
+
+
+lncli listchannels | grep balance
+lncli feereport | grep sum
+lncli getnetworkinfo
+lncli channelbalance
