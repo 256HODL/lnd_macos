@@ -146,8 +146,9 @@ Check https://1ml.com/ for some open public peers. Note the public key and the I
 For example:
 - https://1ml.com/node/03a6680e79e30f050d4f32f1fb9d046cc6efb5ed4cc99eeedba6b2e89cbf838691
 
-PUBLIC_NODE_PUBLIC_KEY: 03a6680e79e30f050d4f32f1fb9d046cc6efb5ed4cc99eeedba6b2e89cbf838691
-IP_ADDRESS:PORT: 85.216.202.47:9735
+`PUBLIC_NODE_PUBLIC_KEY:` 03a6680e79e30f050d4f32f1fb9d046cc6efb5ed4cc99eeedba6b2e89cbf838691
+
+`IP_ADDRESS:PORT:` 85.216.202.47:9735
 
 ```
 lncli openchannel --conf_target 6 --node_key PUBLIC_NODE_PUBLIC_KEY --connect IP_ADDRESS:PORT --local_amt AMOUNT_OF_SATS
