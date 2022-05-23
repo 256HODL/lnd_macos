@@ -12,14 +12,14 @@
 # Install Xcode
 xcode-select --install
 
+# Install Brew (skip if you already have this installed)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 # Install Dependencies
 brew install automake libtool boost pkg-config libevent
 
 # Clone Bitcoin repository
 git clone https://github.com/bitcoin/bitcoin.git && cd "$_"
-
-# Install Brew (skip if you already have this installed)
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install ZMQ Dependencies
 brew install zeromq
