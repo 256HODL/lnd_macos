@@ -40,9 +40,6 @@ make check
 mkdir -p "/Users/${USER}/Library/Application Support/Bitcoin"
 touch "/Users/${USER}/Library/Application Support/Bitcoin/bitcoin.conf"
 chmod 600 "/Users/${USER}/Library/Application Support/Bitcoin/bitcoin.conf"
-
-# Run
-./src/bitcoind
 ```
 
 ## Step 2: Build LND from source
@@ -110,7 +107,13 @@ listen=0.0.0.0:9735
 listen=[::1]:9736
 ```
 
-## Step 6: Run LND
+## Step 6: Run Bitcoin Core
+Run the following command via CLI:
+```
+./src/bitcoind
+```
+
+## Step 7: Run LND
 Run the following command via CLI:
 ```
 lnd
@@ -129,7 +132,7 @@ Later, we will need to unlock this wallet everytime we restart lnd using the com
 lncli unlock
 ```
 
-## Step 7: Deposit some Bitcoin
+## Step 8: Deposit some Bitcoin
 Run the following command via CLI:
 ```
 lncli newaddress p2wkh
@@ -142,7 +145,7 @@ Any sats sent to these addresses will now show up in the commmand:
 lncli walletbalance
 ```
 
-## Step 8: Find a peer
+## Step 9: Find a peer
 Check https://1ml.com/ for some open public peers. Note the public key and the IP address and port.
 
 For example:
