@@ -118,7 +118,7 @@ Run the following command via CLI:
 ```
 lnd
 ```
-As we started LND for the first time, we will have to create a wallet with the command:
+Since we've started LND for the first time, we will have to create a wallet with the command:
 
 ```
 lncli create
