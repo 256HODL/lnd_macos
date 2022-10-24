@@ -61,7 +61,7 @@ make install tags="autopilotrpc chainrpc invoicesrpc routerrpc signrpc walletrpc
 Ensure you are in the `/bitcoin` directory in your Git repo.
 
 ```
-cd /bitcoin
+cd bitcoin
 python3 share/rpcauth/rpcauth.py btcrpcuser
 ```
 
@@ -110,7 +110,7 @@ listen=[::1]:9736
 ## Step 6: Run Bitcoin Core
 Run the following command via CLI:
 ```
-./src/bitcoind
+.bitcoin/src/bitcoind --printtoconsole
 ```
 
 ## Step 7: Run LND
