@@ -110,7 +110,7 @@ listen=[::1]:9736
 ## Step 6: Run Bitcoin Core
 Run the following command via CLI:
 ```
-.bitcoin/src/bitcoind --printtoconsole
+bitcoin/src/bitcoind --printtoconsole
 ```
 
 ## Step 7: Run LND
